@@ -1,0 +1,13 @@
+load("@pip//:requirements.bzl", "requirement")
+load("@rules_python//python:defs.bzl", "py_binary", "py_library", "py_test")
+
+py_binary(
+    name = "ansible",
+    srcs = ["ansible.py"],
+    main = "ansible.py",
+    visibility = ["//:__subpackages__"],
+    #deps = [":bzlmod_build_file_generation"],
+    deps = [
+        requirement("ansible"),
+    ],
+)

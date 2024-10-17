@@ -1,0 +1,21 @@
+set -x
+
+TEST_TMPDIR=$(mktemp -d)
+trap cleanup 1 2 3 6 15
+cleanup() {
+    test -s "${TEST_TMPDIR}" && rm -fr "${TEST_TMPDIR}"
+    exit 1
+}
+
+IMAGE="bazel-ansible:latest"
+
+docker build --no-cache -t "${IMAGE}" - < lib/docker/Dockerfile || cleanup
+
+
+#docker run -e USER="$(id -u)" -u="$(id -u)" \
+#  -v ${TEST_TMPDIR}:/tmp -e TEST_TMPDIR=/tmp \
+#  -v ~/src/bazel-ansible:/src/workspace -w /src/workspace \
+#  -v ${HOME}/src/rules_python:${HOME}/src/rules_python \
+#  "${IMAGE}" \
+#  --output_user_root=/tmp/build_output   run ":pyv"
+

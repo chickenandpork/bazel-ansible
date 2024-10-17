@@ -1,0 +1,15 @@
+[{
+    "regex": "^//lib/python:requirements_test                                           FAILED",
+    "command": "bazel",
+    "args":    ["run", "//lib/python:requirements.update" ]
+},
+{
+    "regex": "^//:gazelle_python_manifest.test                                          FAILED",
+    "command": "bazel",
+    "args":    ["run", "@@//:gazelle_python_manifest.update" ]
+},
+{
+    "regex": "^//lib/python:gazelle_python_manifest.test                                FAILED",
+    "command": "bazel",
+    "args":    ["run", "@@//lib/python:gazelle_python_manifest.update" ]
+}]

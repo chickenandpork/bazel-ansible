@@ -1,0 +1,5 @@
+alias(
+    name = "ansible",
+    # ultimately, the path of playbooks, plays, tasks, secrets will be lumped in here
+    actual = "//cli/ansible:ansible",
+)
