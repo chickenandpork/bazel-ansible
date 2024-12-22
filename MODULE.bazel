@@ -24,7 +24,7 @@ bazel_dep(name = "rules_python_gazelle_plugin", version = "1.0.0")
 # The following stanza defines the dependency for gazelle
 # See here https://github.com/bazelbuild/bazel-gazelle/releases/ for the
 # latest version.
-bazel_dep(name = "gazelle", version = "0.39.1", repo_name = "bazel_gazelle")
+bazel_dep(name = "gazelle", version = "0.40.0", repo_name = "bazel_gazelle")
 
 # The following stanze returns a proxy object representing a module extension;
 # its methods can be invoked to create module extension tags.
