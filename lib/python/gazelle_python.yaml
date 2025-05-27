@@ -3,6 +3,7 @@
 # To update this file, run:
 #   bazel run //lib/python:gazelle_python_manifest.update
 
+---
 manifest:
   modules_mapping:
     pkg_resources: setuptools
