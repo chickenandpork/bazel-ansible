@@ -32,4 +32,4 @@ pip.parse(
 
 use_repo(pip, "pip")
 
-bazel_dep(name = "buildifier_prebuilt", version = "8.2.0.2", dev_dependency = True)
+bazel_dep(name = "buildifier_prebuilt", version = "8.2.1", dev_dependency = True)
