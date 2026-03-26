@@ -12,9 +12,9 @@ ansible-core==2.15.12 \
     --hash=sha256:390edd603420122f7cb1c470d8d1f8bdbbd795a1844dd03c1917db21935aecb9 \
     --hash=sha256:5fde82cd3928d9857ad880782c644f27d3168b0f25321d5a8d6befa524aa1818
     # via ansible
-ansible-runner==2.4.0 \
-    --hash=sha256:82d02b2548830f37a53517b65c823c4af371069406c7d213b5c9041d45e0c5b6 \
-    --hash=sha256:a3f592ae4cdfa62a72ad15de60da9c8210f376d67f495c4a78d4cf1dc7ccdf89
+ansible-runner==2.4.3 \
+    --hash=sha256:5f3025529bb968fdc3b627457dd8d418dbf9d53bc73735d50e69c28544d53031 \
+    --hash=sha256:cdac6daa151a50084ffda710e769db23fa975fc0507796191d7708831b286e37
     # via -r lib/python/requirements.in
 cffi==1.17.1 \
     --hash=sha256:045d61c734659cc045141be4bae381a41d89b741f795af1dd018bfb532fd0df8 \
