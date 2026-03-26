@@ -122,9 +122,9 @@ generic-path==0.4.5 \
     --hash=sha256:5ca0950169d73694c61a66700a4e9682e0a9ad7fc573886b0ebd53f7d6c6b546 \
     --hash=sha256:ff5fef3f1ba35409b29319247ac20f62bc859facbcb71db6f2cdaeb6340aef0f
     # via -r lib/python/requirements.in
-jinja2==3.1.4 \
-    --hash=sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369 \
-    --hash=sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d
+Jinja2==3.1.6 \
+    --hash=sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d \
+    --hash=sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67
     # via ansible-core
 lockfile==0.12.2 \
     --hash=sha256:6aed02de03cba24efabcd600b30540140634fc06cfa603822d508d5361e9f799 \
